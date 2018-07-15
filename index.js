@@ -22,4 +22,13 @@ return words.some(word => word.length > 4);
 }
 
 function findTheCheese (foods) {
+var cheeses = ['cheddar' , 'gouda' , 'camembert'];
+for (var i = 0; i < foods.length; i++) {
+    for (var x = 0; x < cheeses.length; x++) {
+        if (cheeses[x] == foods[i]) {
+            return cheeses[x];
+        } 
+    } 
 }
+    return 'no cheese!'
+} 

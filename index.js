@@ -1,9 +1,7 @@
-
-
 function dwarfRollCall(dwarves) {
-    var numberedDwarves = [];
-        for (var i = 0; i < dwarves.length; i++) {
-         numberedDwarves.push(`${i+1}. ${dwarves[i]} `)
+var numberedDwarves = [];
+    for (var i = 0; i < dwarves.length; i++) {
+       numberedDwarves.push(`${i+1}. ${dwarves[i]} `)
     }
 return numberedDwarves.join('');
 }
@@ -18,7 +16,6 @@ return excitedPlanets;
 
 function longPlaneteerCalls(words) {
 return words.some(word => word.length > 4);
-
 }
 
 function findTheCheese (foods) {

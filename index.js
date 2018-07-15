@@ -10,10 +10,9 @@ return numberedDwarves.join('');
 
 function summonCaptainPlanet(planeteerCalls){
 var excitedPlanets = [];
-for (var i = 0; i < planeteerCalls.length; i++) {
-    excitedPlanets.push(planeteerCalls[i] + "!");
-}
-
+    for (var i = 0; i < planeteerCalls.length; i++) {
+        excitedPlanets.push(planeteerCalls[i].toUpperCase() +'!')
+    }
 return excitedPlanets;
 }
 

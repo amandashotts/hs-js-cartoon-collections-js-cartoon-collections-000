@@ -17,6 +17,8 @@ return excitedPlanets;
 }
 
 function longPlaneteerCalls(words) {
+return words.some(word => word.length > 4);
+
 }
 
 function findTheCheese (foods) {
